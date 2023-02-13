@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[UTF8]{ctex}
+\usepackage{fontawesome}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{安达鹏} % Your name
+%\address{18850019702 \\ 373770643@qq.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WANTED SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\faHeart求职意向}
+	C++开发工程师 \qquad\faBuildingO 厦门优先 \qquad 接受远程工作,薪资可谈 \\
+	就职方向期望：游戏开发、pc应用开发、嵌入式应用开发、渲染技术、GPU加速、性能优化
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	BASIC SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\faUser基本信息}
+	\faUniversity毕业学校：集美大学 \qquad \qquad\faGraduationCap最高学历：本科 \qquad \quad 专业：计算机科学与技术\\
+	\qquad \faPhone手机：18850019702 \qquad \faComments QQ/微信：373770643  \qquad \faEnvelope邮箱：373770643@qq.com \\
+	\faCalendar年龄：29 \qquad \faMapMarker籍贯：晋江	\qquad \faMapMarker现居住地：晋江 \\
+     \faGithubAlt~ Github地址：https://github.com/Andapeng\\
+	\faLink 博客地址：https://blog.csdn.net/angelbeat0595
+	
+	
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\faHistory工作经验}
+
+\textbf{厦门云脉技术有限公司}\qquad\qquad\qquad{C++工程师}\qquad\qquad\qquad{2019.7 - 2019.12}
+\item	职责描述：负责OCR引擎后处理模块开发，对识别后字符串进行词库匹配，纠错等字符串处理。
+
+
+\textbf{厦门盈趣科技股份有限公司}\qquad\qquad\qquad{C++工程师}\qquad\qquad\qquad{2020.4 - 2022.5}
+\item	职责描述：负责盈趣智能管家系统中，智能开关、智能窗帘、智能空调、智能面板等设备的网关端适配开发。
+
+\textbf{北京构力科技有限公司厦门分公司}\qquad\qquad\qquad{C++工程师}\qquad\qquad\qquad{2022.6 - 2022.11}
+\item	职责描述：负责 pkpm 绿色低碳系列软件(autocad版)二次开发光污染计算、日照计算套件中，一些建筑的建模面板、建模交互和其他功能的代码编写。
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\faList掌握技能}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+\faStar熟练使用C++编写程序，了解Java、Javascript，熟悉win32编程，熟悉常见的数据结构、算法，掌握操
+作系统、计算机网络和计算机组成原理相关知识。\\
+\faStar熟悉Qt框架，可以使用Qt框架编写桌面应用程序。\\
+\faStar熟悉TCP/IP协议，熟悉socket网络编程\\
+\faStar了解OpenGL基本使用，能够编写简单的shader，掌握OpenGL基本内容以及基础的计算机图形学。\\
+\faStar熟悉Git版本管理工具，熟悉CMake跨平台编译工具，熟悉Visual Studio. \\
+\faStar外语水平：英语六级 
+%\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\faCode项目经验}
+\textbf{1.	智能网关（公司：盈趣科技股份有限公司）}\\
+(1) 智能网关适配zigbee、wifi设备的配置、控制和状态同步，通过Protobuf和Json将命令和状态以及设备信息序列化和解析，与智能设备和后台进行通信交互。 \\
+(2) 智能网关开发中，主要涉及到的技术点有socket编程、zigbee协议、，以及C++崩溃、内存泄露等问题排查。 \\
+\textbf{绿色低碳系列软件（公司：北京构力科技有限公司厦门分公司）}\\
+(1) 负责开发软件的autocad平台适配，光污染计算模块和日照计算模块的建模部分\\
+\textbf{2.  C语言词法和语法分析器（个人）}\\
+(1)出于学习编译原理的目的，使用C++编写C语言的编译器前端。\\
+(2)由于C语言较复杂，依照ISO/IEC 9899:2011（C11语言标准）实现了C语言的词法和语法分析，既训练了C++，也熟悉了C语言语法。 \\
+\textbf{3.  软件光栅化渲染器（个人）}\\
+(1)出于学习计算机图形学的目的，使用C++编写软件光栅化渲染器，掌握了基本的3D图形学知识。\\
+(2)实现了简化的obj模型读取功能
+(3)实现的光栅化渲染器可以在没有GPU加速的情况下，用纯软件的方式渲染简单的3D模型。\\
+\textbf{4.	简易2D游戏框架（个人）}\\
+(1)为更好地理解游戏引擎架构原理，用C++实现一个简易的游戏框架，并通过这个框架实现一些简单的2D游戏。
+(2)该项目实现使用了SFML(窗口、音频）、Boost（日志、网络）、GLAD（OpenGL)、Eigen（数学）、FreeType（字体）等第三方库，用来封装框架的各个模块。\\
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
